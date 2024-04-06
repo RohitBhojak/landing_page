@@ -1,1 +1,1 @@
-# landing_page
+Second odin project
