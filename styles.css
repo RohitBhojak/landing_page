@@ -3,6 +3,7 @@
 html{
     font-family: Roboto, sans-serif;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -19,12 +20,17 @@ body{
     padding: 24px 48px;
 }
 
+.header a{
+    text-decoration: none;
+    color: #f9faf8;
+}
+
 .navbar, ul{
     display: flex;
 }
 
 ul{
-    gap: 18px;
+    gap: 32px;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -80,8 +86,29 @@ strong{
 
 .card-container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     text-align: center;
     font-size: large;
     font-weight: bold;
+    margin: 0 96px;
+}
+
+/* Quote section */
+
+.quote{
+    padding: 48px 120px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote p{
+    text-align: center;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote strong{
+    margin-left: auto;
 }
