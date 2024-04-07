@@ -94,6 +94,16 @@ strong{
     flex-wrap: wrap;
 }
 
+.card-container a{
+    text-decoration: none;
+    color: #1f2937;
+}
+
+.card-container img{
+    border: #3882f6 solid;
+    border-radius: 12px;
+}
+
 /* Quote section */
 
 .quote{
@@ -128,6 +138,7 @@ strong{
 .cta-container button{
     margin-left: auto;
     height: 32px;
+    width: 100px;
     color: #f9faf8;
     background-color: #3882f6;
     border: #f9faf8 solid;
