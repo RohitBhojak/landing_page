@@ -17,7 +17,7 @@ body{
 .header{
     background-color: #1f2937;
     color: #f9faf8;
-    padding: 24px 48px;
+    padding: 24px 120px;
 }
 
 .header a{
@@ -90,7 +90,7 @@ strong{
     text-align: center;
     font-size: large;
     font-weight: bold;
-    margin: 0 96px;
+    margin: 0 180px;
     flex-wrap: wrap;
 }
 
@@ -107,7 +107,7 @@ strong{
 /* Quote section */
 
 .quote{
-    padding: 48px 120px;
+    padding: 48px 240px;
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
@@ -115,9 +115,9 @@ strong{
 
 .quote p{
     text-align: center;
-    font-size: 32px;
+    font-size: 36px;
     font-style: italic;
-    font-weight: 300;
+    font-weight: 200;
 }
 
 .quote strong{
@@ -128,11 +128,15 @@ strong{
 
 .cta-container{
     display: flex;
-    margin: 48px 120px;
+    margin: 72px 240px;
     padding: 24px 120px;
     border-radius: 16px;
     background-color: #3882f6;
     color: #f9faf8;
+}
+
+.cta-container h3, .cta-container p{
+    margin: 0;
 }
 
 .cta-container button{
