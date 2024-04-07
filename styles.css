@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html{
+    font-family: Roboto, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+/* Header section */
+
+.header{
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 16px 48px;
+}
+
+.navbar, ul{
+    display: flex;
+}
+
+ul{
+    gap: 18px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-left: auto;
+}
+
+strong{
+    font-size: 24px;
+}
+
+.intro{
+    display: flex;
+    margin: 48px 0;
+}
+
+.intro-text h1{
+    font-size: 48px;
+}
+
+.intro-text p{
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.intro img{
+    object-fit: contain;
+    margin-left: auto;
+}
+
+.intro-text button{
+    font-weight: bold;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 8px;
+    height: 32px;
+    width: 100px;
+}
+
+/* Info section */
+
+.info{
+    margin: 16px 48px;
+}
+
+.info h2{
+    font-size: 32px;
+    color: #1f2937;
+}
+
+.card-container{
+    display: flex;
+}
