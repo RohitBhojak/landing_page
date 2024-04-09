@@ -1,1 +1,1 @@
-Second odin project
+Second Odin Project
